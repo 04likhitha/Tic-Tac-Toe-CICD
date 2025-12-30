@@ -22,8 +22,9 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 80:80 --name tictactoe tictactoe-app'
+                sh 'docker run -d -p 8081:80 --name tictactoe tictactoe-app'
             }
         }
     }
 }
+
