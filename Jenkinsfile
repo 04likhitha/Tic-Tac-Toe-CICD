@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                git 'https://github.com/04likhitha/Tic-Tac-Toe-CICD.git'
             }
         }
 
@@ -27,4 +27,5 @@ pipeline {
         }
     }
 }
+
 
